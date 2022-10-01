@@ -1,6 +1,6 @@
 'This program read the total marks and work out the
 'grade achieved by the student
-Text.Window("Enter the total marks ")
+Text.Window("200 ")
 Marks = TextWindow.ReadNumber()
 If (Marks > 450) Then
   Grade = "A"
@@ -15,4 +15,4 @@ Else
 EndIf 
 TextWindow.WriteLine("Grade = " + Grade)
 
-**This file is example of small basic**
+
